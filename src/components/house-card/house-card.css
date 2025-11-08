@@ -1,0 +1,49 @@
+.house-card {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  gap: 10px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid transparent;
+  background-image: 
+    linear-gradient(#000, #000),
+    linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.house-card:hover {
+  box-shadow: 0 0 25px 5px rgba(232, 28, 255, 0.6), 
+              0 0 50px 15px rgba(64, 201, 255, 0.4);
+}
+
+.house-card img {
+  overflow: hidden;
+  border-radius: 100%;
+  border: 1px solid rgb(226, 226, 226);
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px; 
+}
